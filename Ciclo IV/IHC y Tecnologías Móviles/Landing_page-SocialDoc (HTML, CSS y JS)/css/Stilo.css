@@ -1,0 +1,589 @@
+header{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+
+
+body{
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+.titulo{
+    background: #51D1F6;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.titulo h1{
+    font-family: Nunito;
+    font-size: 3vw;
+}
+
+.titulo p{
+    font-family: Mulish;
+    font-size: 1.5vw;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0px;
+    width:100%;
+    max-height: 150px;
+    height: 6.5vw;
+    margin:0px;
+    background: #51D1F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    padding-top:25px;
+    margin: 0px;
+    font-size: 1.75vw;
+    font-family: Nunito, sans-serif;
+}
+
+.menu li{
+    display: inline;
+    float:right;
+    padding-top: 2px;
+    margin-top: 2px;
+}
+
+.menu img{
+    width: 18%;
+    height: 90%;
+    margin-left: 5%;
+    border-radius: 30px;
+    margin-right: 5%;
+    position: relative;
+    line-height: 0;
+
+}
+
+.menu li a:hover{
+    background: aquamarine;
+}
+
+.portada{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.portada h1{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: Nunito;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.portada p{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    font-family: Mulish;
+    font-size: 1.35vw;
+    text-align: center;
+}
+
+.portada a{
+    display: block;
+    background-color: #51D1F6;
+    border-radius: 40px;
+    width: 15%;
+    height: 9%;
+    color: Black;
+    font-size: 2.3vw;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    padding-top: 1%;
+}
+.portada a:hover{
+
+    background-color: blue;
+}
+div{
+    width: 1330px;
+    padding: 10px;
+    padding-inline-start: revert;
+
+    display: block;
+    text-align: center;
+    border-color: chartreuse;
+}
+.block{
+    width: 1330px;
+    padding: 10px;
+    padding-inline-start: revert;
+    display: block;
+    text-align: center;
+    border-color: chartreuse;
+    height: 30px;
+
+}
+
+.header img{
+    height: 500px;
+    width: 50vh;
+}
+
+
+.contenedor-services{
+    width: 100%;
+
+}
+
+
+
+.contenedor-services li{
+    width: 25vw;
+    padding: 6vh ;
+    display: inline-table;
+    text-align: center;
+    background-color: #87F6C7;
+    height: 30vh;
+    margin-left: 9vw;
+    margin-right: 48px;
+    margin-top: 10px;
+}
+
+
+.contenedor-services li p {
+    margin-top: 10px;
+    text-align-last: initial;
+    font-family: Mulish;
+    font-size: 1.0vw;
+
+
+}
+
+.contenedor-services li h2{
+    margin-top: 20px;
+    text-align-last: initial;
+    font-family: Nunito;
+    font-size: 1.8vw;
+
+}
+
+
+.contenedor-services li:hover{
+    background-color: #D29BFD;
+}
+
+
+
+
+.contenedor-work{
+    display: block;
+    height:105vw;
+    width: 100%;
+}
+.contenedor-work li{
+
+    width: 15vw;
+    height: 20vw;
+    padding: 5vw;
+    border-spacing: 5px;
+    border-color: cadetblue;
+    display: inline-table;
+    text-align: center;
+    background-color: #87F6C7;
+    margin-left: 4vw;
+    margin-top: 10px;
+
+}
+.contenedor-work li:hover{
+    background-color: #D29BFD;
+}
+
+.contenedor-work li h4{
+    margin-top: 1.3vw;
+    text-align-last: initial;
+    font-family: Nunito;
+    font-size: 1.3vw;
+    padding-top: 0.5vw;
+
+}
+
+.contenedor-work li p{
+    margin-top: 10px;
+    text-align-last: initial;
+    font-family: Mulish;
+    font-size: 1.2vw;
+}
+
+
+
+.contenedor-about{
+    display: block;
+    height: 10vw;
+}
+.img-about{
+    width: 1vw;
+    height: 450px;
+    padding-left: 1px;
+}
+.img-about img{
+
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    margin-top: 10vw;
+    margin-left: 24vw;
+    float: left;
+
+    padding: 0px;
+
+
+}
+.contenedor-contact{
+    display: block;
+    height: 10vw;
+    width: 100%;
+}
+
+.contenedor-contact form{
+    width: 60vw;
+    margin: auto;
+    background: #C4C4C4;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.contenedor-contact form h2{
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.contenedor-contact form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    color: Black;
+    background-color: #D29BFD;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+.contenedor-contact form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#boton{
+    background: #D29BFD;
+    color: Black;
+    width: 200px;
+}
+#boton:hover{
+    background: crimson;
+    cursor: pointer;
+
+}
+
+
+
+/*0-600px
+@media(max-width: 700px){
+
+
+
+
+    .contenedor-imagen-inicial {
+        position: relative;
+        width: 650px;
+        height: 300px;
+        background-image: url(../img/pexels-gustavo-fring-3985163.jpg);
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    .contenedor-imagen-inicial h2{
+        display: block;
+        font-size: 30px;
+        margin-right: 100px;
+        text-align: left;
+        width: 500px;
+        margin-left: 20px;
+
+    }
+    .contenedor-imagen-inicial p{
+        font-size: 15px;
+        margin-right: 30px;
+        margin-left: 20px;
+        width: 200px;
+        text-align: left;
+        padding: 0;
+    }
+    .contenedor-imagen-inicial a {
+        display: block;
+        background-color: #51D1F6;
+        border-radius: 40px;
+        width: 90px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 60px;
+        color: Black;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 10px;
+
+    }
+
+
+    div{
+        width: 650px;
+        padding: 10px;
+        padding-inline-start: revert;
+        display: block;
+        text-align: center;
+        border-color: chartreuse;
+    }
+
+
+    .contenedor-services{
+        display: block;
+        height: 500px;
+        min-width: 600px;
+    }
+    .contenedor-services li{
+        width: 150px;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        background-color: #9BCEFD;
+        height: 170px;
+        margin: 4px;
+        margin-left: 54px;
+        margin-right: 20px;
+        margin-top: 65px;
+    }
+    .contenedor-services li p,h2{
+        margin-top: 35px;
+        text-align-last: initial;
+    }
+    .contenedor-services li h2{
+        font-size: 15px;
+    }
+    .contenedor-services li p{
+        font-size: 8px;
+    }
+
+
+    .contenedor-work{
+        display: block;
+        height: 700px;
+        min-width: 600px;
+    }
+    .contenedor-work li{
+        width: 100px;
+        padding: 15px;
+        border-spacing: 5px;
+        border-color: cadetblue;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 5px;
+        background-color: #9BCEFD;
+        height: 150px;
+    }
+    .contenedor-work li p,h2{
+        margin-top: 35px;
+        text-align-last: initial;
+    }
+    .contenedor-work li h2{
+        font-size: 15px;
+    }
+    .contenedor-work li p{
+        font-size: 8px;
+    }
+
+
+
+
+}*/
+
+/*600-800px
+
+@media(max-width: 700px){
+    .menu{
+        list-style: none;
+        padding: 6px;
+        background: #51D1F6;
+        width:650px;
+
+    }
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        display: block;
+        font-size: 10px;
+        padding-top: 10px;
+
+    }
+    .menu img {
+        width: 75px;
+        height: 30px;
+        margin-left: 10px;
+
+        margin-right: 100px;
+        position: relative;
+
+    }
+
+
+    .contenedor-imagen-inicial {
+        position: relative;
+        width: 650px;
+        height: 300px;
+        background-image: url(../img/pexels-gustavo-fring-3985163.jpg);
+        background-size: 100vw 100vh;
+        background-attachment: fixed;
+    }
+    .contenedor-imagen-inicial h2{
+        display: block;
+        font-size: 30px;
+        margin-right: 100px;
+        text-align: left;
+        width: 500px;
+        margin-left: 20px;
+
+    }
+    .contenedor-imagen-inicial p{
+        font-size: 15px;
+        margin-right: 30px;
+        margin-left: 20px;
+        width: 200px;
+        text-align: left;
+        padding: 0;
+    }
+    .contenedor-imagen-inicial a {
+        display: block;
+        background-color: #51D1F6;
+        border-radius: 40px;
+        width: 90px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 30px;
+        margin-right: 60px;
+        color: Black;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        padding-top: 10px;
+
+    }
+
+
+    div{
+        width: 650px;
+        padding: 10px;
+        padding-inline-start: revert;
+        display: block;
+        text-align: center;
+        border-color: chartreuse;
+    }
+
+
+    .contenedor-services{
+        display: block;
+        height: 500px;
+        min-width: 600px;
+    }
+    .contenedor-services li{
+        width: 150px;
+        padding: 15px;
+        display: inline-block;
+        text-align: center;
+        background-color: #9BCEFD;
+        height: 170px;
+        margin: 4px;
+        margin-left: 54px;
+        margin-right: 20px;
+        margin-top: 65px;
+    }
+    .contenedor-services li p,h2{
+        margin-top: 35px;
+        text-align-last: initial;
+    }
+    .contenedor-services li h2{
+        font-size: 15px;
+    }
+    .contenedor-services li p{
+        font-size: 8px;
+    }
+
+
+    .contenedor-work{
+        display: block;
+        height: 700px;
+        min-width: 600px;
+    }
+    .contenedor-work li{
+        width: 100px;
+        padding: 15px;
+        border-spacing: 5px;
+        border-color: cadetblue;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 5px;
+        background-color: #9BCEFD;
+        height: 150px;
+    }
+    .contenedor-work li p,h2{
+        margin-top: 35px;
+        text-align-last: initial;
+    }
+    .contenedor-work li h2{
+        font-size: 15px;
+    }
+    .contenedor-work li p{
+        font-size: 8px;
+    }
+
+
+}
+
+
+*/
+/*alternative
+@media(max-width: 480px){
+    .contenedor-contact form{
+        width: 100%;
+    }
+}*/
