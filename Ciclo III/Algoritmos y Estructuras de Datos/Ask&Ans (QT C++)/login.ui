@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QMainWindow" name="Login">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2000</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Ask&amp;Ans</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="bt_MiPerfil">
+    <property name="geometry">
+     <rect>
+      <x>1680</x>
+      <y>10</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Mi perfil</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_Preguntar">
+    <property name="geometry">
+     <rect>
+      <x>1560</x>
+      <y>10</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Publicar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_Inicio">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>10</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Inicio</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>1951</width>
+      <height>871</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QLabel" name="lbl_logo">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>270</y>
+        <width>271</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Century Schoolbook</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_email">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>460</y>
+        <width>441</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	 border-width: 3px;
+    border-style: solid;
+    border-color: #D0D0D0;
+border-radius: 7px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Normal</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Email</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_nombre">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>390</y>
+        <width>441</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="toolTipDuration">
+       <number>0</number>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	 border-width: 3px;
+    border-style: solid;
+    border-color: #D0D0D0;
+border-radius: 7px;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Nombre</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl_CuadroBlanco">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>230</y>
+        <width>531</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+border-color: #646464;
+}</string>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bt_IrRegistrar">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>660</y>
+        <width>281</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>12</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF
+}</string>
+      </property>
+      <property name="text">
+       <string>¿Todavía no tiene una cuenta?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="bt_IniciarSesion">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>530</y>
+        <width>441</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>MS Shell Dlg 2</family>
+        <pointsize>11</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+}</string>
+      </property>
+      <property name="text">
+       <string>Iniciar sesión</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lbl">
+      <property name="geometry">
+       <rect>
+        <x>850</x>
+        <y>150</y>
+        <width>211</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Calibri</family>
+        <pointsize>22</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+padding: 5 px;
+color: #FFFFFF;
+}</string>
+      </property>
+      <property name="text">
+       <string>Inicie Sesión</string>
+      </property>
+     </widget>
+     <zorder>lbl_CuadroBlanco</zorder>
+     <zorder>lbl_logo</zorder>
+     <zorder>le_email</zorder>
+     <zorder>le_nombre</zorder>
+     <zorder>bt_IrRegistrar</zorder>
+     <zorder>bt_IniciarSesion</zorder>
+     <zorder>lbl</zorder>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="lbl_logo_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>231</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Century Schoolbook</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_cerrar_sesion">
+    <property name="geometry">
+     <rect>
+      <x>1800</x>
+      <y>10</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Cerrar sesión</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2000</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Registrarse</class>
+ <widget class="QWidget" name="Registrarse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1477</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="lbl_CuadroBlanco">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>230</y>
+     <width>531</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+border-color: #646464;
+}</string>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>150</y>
+     <width>291</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>22</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+padding: 5 px;
+color: #FFFFFF;
+}</string>
+   </property>
+   <property name="text">
+    <string>Cree una cuenta</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_nombre">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>390</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	 border-width: 3px;
+    border-style: solid;
+    border-color: #D0D0D0;
+border-radius: 7px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Nombre</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_email">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>460</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	 border-width: 3px;
+    border-style: solid;
+    border-color: #D0D0D0;
+border-radius: 7px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Email</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_CrearCuenta">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>530</y>
+     <width>441</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>MS Shell Dlg 2</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: #086FE6;
+color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Crear cuenta</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_logo">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>270</y>
+     <width>271</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Schoolbook</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bt_IrIniciarSesion">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>660</y>
+     <width>281</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Calibri</family>
+     <pointsize>12</pointsize>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	background-color: rgba(255,255,255,0);
+	color: #FFFFFF
+}</string>
+   </property>
+   <property name="text">
+    <string>¿Ya tiene una cuenta?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

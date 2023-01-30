@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>img/fondo.jpg</file>
+        <file>img/blanco.jpg</file>
+        <file>img/logo.jpg</file>
+        <file>img/fondo celeste.jpg</file>
+        <file>img/fondo beige.jpg</file>
+        <file>img/lupa.png</file>
+        <file>img/FotoPerfil.png</file>
+    </qresource>
+</RCC>
