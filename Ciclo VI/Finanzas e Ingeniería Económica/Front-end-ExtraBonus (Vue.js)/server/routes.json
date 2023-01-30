@@ -1,0 +1,5 @@
+{
+  "/users/:userId/configurations/:configurationId": "/configurations/:configurationId",
+  "/bonds/:bondId/results/:resultId": "/results/:resultId",
+  "/bonds/:bondId/dues/:dueId": "/dues/:dueId"
+}
