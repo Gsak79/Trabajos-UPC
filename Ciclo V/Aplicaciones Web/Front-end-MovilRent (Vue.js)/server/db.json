@@ -1,0 +1,303 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Manuel",
+      "lastname": "Quispe Salazar",
+      "age": 20,
+      "image": "doc1.jpg",
+      "phone": "932859055",
+      "email": "jack@gmail.com",
+      "workplace": "Hospital del niño",
+      "recommendation": 8,
+      "password": "123",
+      "specialist": "Dentist",
+      "residence": "Perú",
+      "biography": "Los templos egipcios fueron construidos para el culto oficial de los dioses y la conmemoración"
+    },
+    {
+      "id": 2,
+      "name": "Mike",
+      "lastname": "Torres Lee",
+      "age": 21,
+      "image": "doc2.png",
+      "phone": "948375930",
+      "email": "jack@gmail.com",
+      "specialist": "Psychologist",
+      "recommendation": 5,
+      "workplace": "Clínica San Borja",
+      "password": "123",
+      "residence": "Perú",
+      "biography": "Los templos egipcios fueron construidos para el culto oficial de los dioses y la conmemoración"
+    },
+    {
+      "id": 3,
+      "name": "María",
+      "lastname": "Jimenez Ruiz",
+      "age": 10,
+      "image": "doc3.jpg",
+      "phone": "995837509",
+      "email": "jack@gmail.com",
+      "specialist": "Ophthalmologist",
+      "recommendation": 15,
+      "workplace": "Clínica San Felipe",
+      "password": "123",
+      "residence": "Perú",
+      "biography": "Los templos egipcios fueron construidos para el culto oficial de los dioses y la conmemoración"
+    },
+    {
+      "id": 4,
+      "name": "John",
+      "lastname": "Araujo Bermudez",
+      "age": 24,
+      "image": "doc4.jpg",
+      "phone": "993748909",
+      "email": "jack@gmail.com",
+      "workplace": "Clínica San Pablo",
+      "recommendation": 24,
+      "specialist": "Pediatrician",
+      "password": "123",
+      "residence": "Perú",
+      "biography": "Los templos egipcios fueron construidos para el culto oficial de los dioses y la conmemoración"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "forumId": 1,
+      "userId": 1,
+      "content": "El cuidado del hogar de los dioses era obligación de los faraones, que dedicaron ingentes cantidades de recursos para la construcción y el mantenimiento de los templos.",
+      "date": "05-11-21"
+    },
+    {
+      "id": 2,
+      "forumId": 1,
+      "userId": 2,
+      "content": "El cuidado del hogar de los dioses era obligación de los faraones, que dedicaron ingentes cantidades de recursos para la construcción y el mantenimiento de los templos.",
+      "date": "05-11-21"
+    },
+    {
+      "id": 3,
+      "forumId": 1,
+      "userId": 2,
+      "content": "El cuidado del hogar de los dioses era obligación de los faraones, que dedicaron ingentes cantidades de recursos para la construcción y el mantenimiento de los templos.",
+      "date": "05-11-21"
+    },
+    {
+      "id": 4,
+      "forumId": 1,
+      "userId": 4,
+      "content": "El cuidado del hogar de los dioses era obligación de los faraones, que dedicaron ingentes cantidades de recursos para la construcción y el mantenimiento de los templos.",
+      "date": "05-11-21"
+    },
+    {
+      "id": 5,
+      "forumId": "1",
+      "userId": 1,
+      "content": "a",
+      "date": "5-5-2022"
+    },
+    {
+      "id": 6,
+      "forumId": "1",
+      "userId": 1,
+      "content": "b",
+      "date": "5-5-2022"
+    },
+    {
+      "id": 7,
+      "forumId": "1",
+      "userId": 1,
+      "content": "f",
+      "date": "5-5-2022"
+    },
+    {
+      "id": 8,
+      "forumId": "1",
+      "userId": 1,
+      "date": "4-6-2022"
+    },
+    {
+      "id": 9,
+      "forumId": "1",
+      "userId": 1,
+      "date": "4-6-2022"
+    },
+    {
+      "id": 10,
+      "forumId": "1",
+      "userId": 1,
+      "date": "4-6-2022"
+    },
+    {
+      "id": 11,
+      "forumId": "1",
+      "userId": 1,
+      "date": "4-6-2022"
+    },
+    {
+      "id": 12,
+      "forumId": "1",
+      "userId": 1,
+      "content": "ddd",
+      "date": "4-6-2022"
+    },
+    {
+      "id": 13,
+      "forumId": "1",
+      "userId": 1,
+      "content": "ddd",
+      "date": "4-6-2022"
+    },
+    {
+      "id": 14,
+      "forumId": "1",
+      "userId": 1,
+      "date": "4-6-2022"
+    },
+    {
+      "id": 15,
+      "forumId": "1",
+      "userId": 1,
+      "date": "5-6-2022"
+    },
+    {
+      "id": 16,
+      "forumId": "1",
+      "userId": 1,
+      "date": "6-6-2022"
+    },
+    {
+      "id": 17,
+      "forumId": "1",
+      "userId": 1,
+      "content": "d",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 18,
+      "forumId": "1",
+      "userId": 1,
+      "content": "d",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 19,
+      "forumId": "1",
+      "userId": 1,
+      "content": "a",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 20,
+      "forumId": "1",
+      "userId": 1,
+      "content": "5",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 21,
+      "forumId": "1",
+      "userId": 1,
+      "content": "prueba",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 22,
+      "forumId": "2",
+      "userId": 1,
+      "content": "f",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 23,
+      "forumId": "1",
+      "userId": 1,
+      "content": "a",
+      "date": "6-6-2022"
+    },
+    {
+      "id": 24,
+      "forumId": "1",
+      "userId": 1,
+      "content": "a",
+      "date": "6-6-2022"
+    }
+  ],
+  "forums": [
+    {
+      "id": 1,
+      "title": "Premio Grammy al mejor",
+      "content": "El premio Grammy al mejor álbum de pop vocal tradicional es un galardón otorgado a los artistas en el contexto de los premios Grammy, una ceremonia establecida en 1958 y llamada originalmente los premios Gramophone. Los reconocimientos en cada categoría son entregados en una ceremonia anual por The Recording Academy de los Estados Unidos con la intención de «distinguir los logros artísticos, la pericia técnica y la excelencia en general en la industria de la grabación, sin tener en cuenta la cantidad de ventas del álbum o su posición en las listas».",
+      "date": "02-12-2020",
+      "userId": 1,
+      "rating": 0
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "rating": 1,
+      "title": "Medico álbum de pop vocal tradicional",
+      "content": "El premio Grammy al mejor álbum de pop vocal tradicional es un galardón otorgado a los artistas en el contexto de los premios Grammy, una ceremonia establecida en 1958 y llamada originalmente los premios Gramophone. Los reconocimientos en cada categoría son entregados en una ceremonia anual por The Recording Academy de los Estados Unidos con la intención de «distinguir los logros artísticos, la pericia técnica y la excelencia en general en la industria de la grabación, sin tener en cuenta la cantidad de ventas del álbum o su posición en las listas».",
+      "date": "05-12-21"
+    },
+    {
+      "id": 3,
+      "title": "n",
+      "date": "4-6-2022",
+      "userId": 1,
+      "author": "Manuel Quispe Salazar"
+    },
+    {
+      "id": 4,
+      "title": "a",
+      "date": "6-6-2022",
+      "userId": 1,
+      "author": "Manuel Quispe Salazar"
+    },
+    {
+      "id": 5,
+      "title": "a",
+      "content": "n",
+      "date": "6-6-2022",
+      "userId": 1,
+      "author": "Manuel Quispe Salazar"
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "forumId": "2",
+      "userId": 1,
+      "rating": 1
+    },
+    {
+      "id": 2,
+      "forumId": "1",
+      "userId": 1,
+      "rating": 5
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": " recommends you",
+      "userId": 1,
+      "actionsCodes": "1,2,"
+    },
+    {
+      "id": 2,
+      "title": " recommends you",
+      "userId": 2,
+      "actionsCodes": "1,2,"
+    },
+    {
+      "id": 3,
+      "title": " has created a new entrance in the forum",
+      "userId": 4,
+      "actionsCodes": "3,"
+    }
+  ],
+  "recommendations": [],
+  "report-bugs": []
+}

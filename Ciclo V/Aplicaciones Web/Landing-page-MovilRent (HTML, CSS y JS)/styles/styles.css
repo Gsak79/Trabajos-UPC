@@ -1,0 +1,254 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+#cover{
+    margin: 0;
+    padding-bottom: 20vh;
+    background-image: url("../media/img_cover.jpg");
+    background-size: cover;
+}
+
+.section_title{
+    font-size: 3.0rem;
+}
+
+.title{
+    padding-top: 20vh;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+}
+
+.subtitle{
+    padding-top: 10vh;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#call-to-action-cover{
+    margin-top: 10vh;
+    align-self: center;
+}
+
+#sections{
+    height: 100%;
+    background: linear-gradient(180deg, rgba(81,141,160,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.about_us{
+    padding-top: 5vh;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+.testimonials{
+    padding-top: 10vh;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.join_us{
+    padding-top: 5vh;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.about_product {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.about_team {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+
+#boton{
+    margin-top: 3rem;
+}
+
+#title_test1{
+    font-weight: bold;
+}
+
+#title_test2{
+    font-weight: bold;
+}
+
+.container {
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_as {
+    align-items: center;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+.image_ts {
+    width: 13rem;
+    border-radius: 50%;
+}
+
+.container p
+{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.column-md{
+    align-items: center;
+}
+.card{
+    margin: 3vw;
+}
+
+footer{
+    position: absolute;
+    width:100%;
+    height:25%;
+    padding-top: 2rem;
+    margin-top: 5rem;
+    background-color: #518DA0;
+    overflow: hidden;
+}
+
+.content_logos, .content_data, .content_data2{
+    display: flex;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.content_logos img{
+    height: 60px;
+    width: 60px;
+}
+.Content{
+    display: flex;
+    width:50%;
+    height: 25%;
+    justify-content: center;
+}
+.Content img{
+    height:30px;
+    width:30px;
+    margin: 0;
+    padding: 0;
+}
+.content_data p{
+    font-size: 20px;
+    padding: 0;
+    margin:0;
+}
+.content_data, .content_data2{
+    margin-top: 25px
+}
+.what-do-we-provide{
+    padding-top: 10vh;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 800px){
+    .title{
+        padding-top: 20vh;
+        color: white;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .subtitle{
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+        font-family: 'Inter Light', sans-serif;
+        font-size: 1rem;
+    }
+    .image_as {
+        align-items: center;
+        width: 300px;
+    }
+    .container p
+    {
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 2vw;
+    }
+    footer{
+        height: 50%;
+    }
+    .content_data, .content_data2{
+        flex-direction: column;
+    }
+    .Content {
+        margin: 0 0 50px 150px;
+    }
+	.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+	}
+	.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1200px){
+    .title{
+        padding-top: 20vh;
+        color: white;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 2rem;
+    }
+
+    .subtitle{
+        padding-top: 10vh;
+        color: white;
+        text-align: center;
+        font-family: "Inter Light", sans-serif;
+        font-size: 2rem;
+    }
+    .image_as {
+        align-items: center;
+        width: 350px;
+    }
+    .container p
+    {
+        font-weight: lighter;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-height: 700px) {
+    footer {
+        padding: 10px;
+    }
+    .content_data2 p {
+        font-size: 14px;
+    }
+}
